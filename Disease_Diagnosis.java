@@ -1,4 +1,4 @@
-package assignments;
+
 import javax.swing.*;
 import java.util.*;
 import java.awt.*;
@@ -25,7 +25,7 @@ class Details
      bgo=sc.next();
      }
 	}
-class MedicalCardDisplay {
+class MedicalCardDisplay {  //displays medical card
 	 static String lnk;
   public static void displayMedicalCard(String diagnosis) {
 	 
@@ -276,7 +276,7 @@ class TreeNode {
       return noNode;
   }
 }
-public class Disease_Diagnosis {
+public class Disease_Diagnosis {  //generting root node and other internal nodes
 	
 	private static TreeNode root;
 	   public static void main(String[] args) {
