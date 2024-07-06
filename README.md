@@ -1,5 +1,5 @@
 Sympto_Scan aims to address the global healthcare challenge of medical misdiagnosis, which has severe consequences for patients. In India alone, there are approximately 52 lakhs cases of medical negligence reported annually, with a 110% increase in recent years according to the National Library of Medicine. These alarming statistics highlight the urgent need for an accurate and reliable medical diagnosis system to prevent such misdiagnosis and ensure patient safety.
-The project focuses on developing an effective and accurate symptom-based disease diagnosis system utilizing tree data structure. Sympto_Scan will prompt users to input their symptoms using an initial question set and follow-up questions. Upon completion, it will provide the user with the most likely diagnosis or a list of potential conditions, along with relevant information about each. The goal is to create an intuitive and accurate platform for self-assessment of medical symptoms, aiding users in seeking appropriate medical advice and treatment.
+The project focuses on developing an effective and accurate symptom-based disease diagnosis system utilizing tree data structure. Sympto_Scan will prompt users to input their symptoms using an initial question set and follow-up questions. Upon completion, it will provide the user with the most likely diagnosis or a list of potential conditions, along with relevant information about each. This disease-diagnosis system integrates patient information with a sophisticated tree structure, mimicking the decision-making process of healthcare professionals. It blends user-provided data with our research findings to deliver accurate diagnoses, aiding users in seeking appropriate medical advice and treatment. This documentation serves as a comprehensive guide to understanding and utilizing the features of SYMPTO_SCAN effectively.
 
 Data Structures used: Trees
 
@@ -14,33 +14,32 @@ The system collects essential patient details such as name, age, gender, weight,
 **3)Hierarchical Tree Structure:**
 The heart of the Disease Diagnosis System lies in its intricate tree structure. It is designed hierarchically, mimicking the decision-making process of healthcare professionals. Here's an overview of how the tree structure works:
  
-  **a)Node Structure:** The tree consists of nodes representing medical conditions and decision points.
+    **a)Node Structure:** The tree consists of nodes representing medical conditions and decision points.
  
-  **b)Root Node:** The root node represents the starting point of the decision-making process.
+    **b)Root Node:** The root node represents the starting point of the decision-making process.
   
-   ![Screenshot 2024-07-06 102133](https://github.com/nandinipathak2005/SYMPTO_SCAN/assets/166193813/7c33757f-9c7c-4bb6-9a5f-ac79528eb814)
+     ![Screenshot 2024-07-06 102133](https://github.com/nandinipathak2005/SYMPTO_SCAN/assets/166193813/7c33757f-9c7c-4bb6-9a5f-ac79528eb814)
  
-  **c)Internal Nodes:** Internal nodes evaluate specific conditions or criteria based on patient information.
+    **c)Internal Nodes:** Internal nodes evaluate specific conditions or criteria based on patient information.
   
-   All of the internal nodes are named as per the symptoms they are referring to.
+     All of the internal nodes are named as per the symptoms they are referring to.
  
-   ![Screenshot 2024-07-06 102730](https://github.com/nandinipathak2005/SYMPTO_SCAN/assets/166193813/c8c5ef7e-77fb-4b9d-b1a1-1e174688ef57)
+     ![Screenshot 2024-07-06 102730](https://github.com/nandinipathak2005/SYMPTO_SCAN/assets/166193813/c8c5ef7e-77fb-4b9d-b1a1-1e174688ef57)
 
-  **d)Leaf Nodes:** Leaf nodes represent disease diagnoses or outcomes based on the conditions evaluated.
+    **d)Leaf Nodes:** Leaf nodes represent disease diagnoses or outcomes based on the conditions evaluated.
  
 **4)Decision Making:**
 
-As patient information is entered, the system traverses the tree, making decisions at each node based on the input data.
+  As patient information is entered, the system traverses the tree, making decisions at each node based on the input data.
 
- **a)Probabilistic Diagnosis:**
-    The algorithm calculates probabilities for various diagnoses based on the symptoms and decision path followed in the tree.
+   **a)Probabilistic Diagnosis:**
+      The algorithm calculates probabilities for various diagnoses based on the symptoms and decision path followed in the tree.
 
- **b)Medical Card Generation:**
-   
-   Upon successful diagnosis, the system generates a medical card containing the diagnosis details and relevant medical information. This medical card serves as a concise summary for healthcare professionals 
-   and patients.
+   **b)Medical Card Generation:**
+     Upon successful diagnosis, the system generates a medical card containing the diagnosis details and relevant medical information. This medical card serves as a concise summary for healthcare professionals 
+     and patients.
 
- **c)Customizable Rules:**
+**5)Customizable Rules:**
     Healthcare professionals can customize the decision tree rules based on specific medical conditions and diagnostic criteria. This flexibility allows for tailored diagnoses according to varying healthcare 
     scenarios.
 
