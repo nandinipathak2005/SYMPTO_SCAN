@@ -129,11 +129,11 @@ class MedicalCardDisplay {  //displays medical card
           }
           else if(diagnosis=="Food Poisoning or Appendicitis(Probability:90-100%)")
           {
-        	   lnk="https://drive.google.com/file/d/17KgWsIiYy7ud7J_C_E4lPMVGgW9oGQM7/view";
+        	   lnk="https://docs.google.com/document/d/1ESdc49Vcjo3E3HT45kkpj2yfiYXvjEVIJhZ6Loodwmo/edit?usp=sharing";
           }
           else if(diagnosis=="Common Cold(Probability:90-100%)")
           {
-        	   lnk="https://drive.google.com/file/d/17KgWsIiYy7ud7J_C_E4lPMVGgW9oGQM7/view";
+        	   lnk="https://my.clevelandclinic.org/health/diseases/12342-common-cold";
           }
           else if(diagnosis=="Hormonal Fluctuations(Probability:90-100%)")
           {
@@ -200,7 +200,7 @@ class MedicalCardDisplay {  //displays medical card
         	   lnk="https://www.webmd.com/skin-problems-and-treatments/eczema/atopic-dermatitis-eczema";
           }
           else
-          {   lnk="https://drive.google.com/file/d/17KgWsIiYy7ud7J_C_E4lPMVGgW9oGQM7/view";
+          {   lnk="https://docs.google.com/document/d/1ESdc49Vcjo3E3HT45kkpj2yfiYXvjEVIJhZ6Loodwmo/edit?usp=sharing";
           }
 
 
